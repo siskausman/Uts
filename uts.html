@@ -1,0 +1,64 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi Kendaraan</title>
+</head>
+<body>
+    <h1>Registrasi Kendaraan Anda</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Status</td>
+                <td>
+                    <input type="radio" name="status" value="Mahasiswa"> Mahasiswa
+                    <input type="radio" name="status" value="Dosen"> Dosen
+                </td>
+            </tr>
+            <tr>
+                <td>NIM/NIDN</td>
+                <td><input type="text" name="nim_nidn"></td>
+            </tr>
+            <tr>
+                <td>Nama Lengkap : </td>
+                <td><input type="text" name="nama_lengkap"></td>
+            </tr>
+            <tr>
+                <td>Prodi : </td>
+                <td>
+                    <select name="prodi">
+                        <option value="Pilih Prodi">Pilih Prodi</option>
+                        <option value="Prodi 1">Prodi 1</option>
+                        <option value="Prodi 2">Prodi 2</option>
+                        <option value="Prodi 3">Prodi 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kendaraan : </td>
+                <td>
+                    <input type="radio" name="jenis_kendaraan" value="Motor"> Motor
+                    <input type="radio" name="jenis_kendaraan" value="Mobil"> Mobil
+                </td>
+            </tr>
+            <tr>
+                <td>NoPol</td>
+                <td><input type="text" name="no_pol"></td>
+            </tr>
+            <tr>
+                <td>Merk</td>
+                <td><input type="text" name="merk"></td>
+            </tr>
+            <tr>
+                <td>Upload STNK</td>
+                <td><input type="file" name="stnk"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+```
